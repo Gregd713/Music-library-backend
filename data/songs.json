@@ -198,21 +198,5 @@
     "artist": "queen",
     "genre": "Rock",
     "releaseDate": 12112021
-  },
-  {
-    "id": 26,
-    "title": "Bohemian rhapsody",
-    "album": "queens",
-    "artist": "queen",
-    "genre": "Rock",
-    "releaseDate": 12
-  },
-  {
-    "id": 27,
-    "title": "rockstar",
-    "album": "queens",
-    "artist": "queen",
-    "genre": "Rock",
-    "releaseDate": 9212021
   }
 ]
