@@ -6,7 +6,7 @@ exports.validateSongs=(req,res,next)=>{
         (data.hasOwnProperty('artist')&&typeof(data.artist)==='string')&&
         (data.hasOwnProperty('genre')&&typeof(data.genre)==='string')
         &&
-        (data.hasOwnProperty('releaseDate')&&typeof(data.releaseDate)==='number')
+        (data.hasOwnProperty('releaseDate')&&typeof(data.releaseDate)===number)
     ){return next();}else{
         return res.status(400).send({error:'Missing required properties.'});
     }
